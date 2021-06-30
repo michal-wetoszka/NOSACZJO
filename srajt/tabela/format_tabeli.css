@@ -1,0 +1,31 @@
+table{
+    color:darkred;
+    padding: 20px;
+    border:3px solid #888;
+    /*te marginesy chyba nie działają*/
+    /*margin: top 10px, bottom 10px;*/
+    list-style-type:none;
+    background:#eee;
+    display: block;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    /*margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 20px;*/
+    
+}
+
+/*(odd) - co druga */
+tr:nth-child(odd){
+    background-color: rgb(197, 197, 197);
+    }
+
+/*active - w momencie kliknięcia*/
+tr:hover, a:active{
+    background-color: greenyellow;
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+    font-size: large;
+}

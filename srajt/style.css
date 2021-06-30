@@ -1,0 +1,40 @@
+/* Przykład komentarza w CSS */
+body{
+  background-color:rgb(209, 235, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color:rgb(9, 199, 3);
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover{
+  color:red;
+  text-decoration:bold;
+  text-decoration:underline;
+}
+
+h1{
+    line-height: 2;
+    font-size: 32pt;
+    margin-top: 0.2cm;
+    color: darkblue;
+}
+
+h2{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-style: italic;
+    font-size: small;
+    color: darkorange;
+}
+
+footer{
+  font-size: small;
+  font-style: italic;
+}
